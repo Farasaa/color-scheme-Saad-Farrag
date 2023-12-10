@@ -1,0 +1,76 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2em;
+    font-size: 1rem;
+    color: #111827;
+    width: 90%;
+    gap: 2em;
+}
+
+button {
+    font-size: 0.75rem;
+    color: #374151;
+    background-color: #FFFFFF;
+    border-radius: 0.3em;
+    width: 14em;
+    height: 3.5em;
+    border: 2px solid #D1D5DB;
+}
+
+select{
+    padding-left: 0.5em;
+    width: 19.5em;
+    height: 2.6em;
+    border-radius: 0.3em;
+    border: 2px solid #D1D5DB;
+}
+
+input {
+    border: 2px solid #D1D5DB;
+    width: 3.8em;
+    height: 2.6em;
+}
+
+#colors-api{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 80%;
+    justify-content: center;
+    padding-left: 6em;
+}
+
+.colors-box {
+   width: 7.8em;
+}
+
+button:hover {
+    cursor: pointer;
+    color: white;
+    background-color: black;
+}
+
+button:active {
+    color: black;
+    background-color: white;
+}
+
+#hex-value {
+    display: grid;
+    grid-template-columns: repeat(5, 7.8em);
+    justify-content: center;
+    padding-left: 1em;
+}
+
+P {
+    color: #2B283A;
+    font-size: 0.75rem;
+    font-weight: 600;
+}

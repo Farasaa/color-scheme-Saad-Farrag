@@ -1,0 +1,34 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="cont">
+            <header>
+                <div>
+                    <form id="nav-bar" class="nav-bar">  
+                        <input type="color" value="#ff0000" id="color-input" />
+                        <select name="colors" id="colors-scheme">
+                            <option value="monochrome">Monochrome</option>
+                            <option value="monochrome-dark">Monochrome-dark</option>
+                            <option value="monochrome-light">Monochrome-light</option>
+                            <option value="analogic">Analogic</option>
+                            <option value="complement">Complement</option>
+                            <option value="analogic-complement">Analogic-complement</option>
+                            <option value="triad">Triad</option>
+                        </select>
+                        <button>Get color scheme</button>
+                  </form>  
+                </div>
+            </header> 
+            <section>
+                <div id="colors-api">        
+                </div>
+            </section> 
+            <footer id="hex-value">
+
+            </footer>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

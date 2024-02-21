@@ -74,3 +74,57 @@ P {
     font-size: 0.75rem;
     font-weight: 600;
 }
+
+@media(max-width: 450px) {
+
+    .nav-bar {
+        
+        font-size: 1rem;
+        padding: 1em;
+        
+    }   
+
+    input {
+        
+        width: 6em;
+        height: 2.6em;
+    }
+
+    #colors-api{
+        height: 50%;
+        padding-left: 2em;
+    }
+
+    button {
+        font-size: 0.7rem;
+        width: 15em;
+        height: 3.5em;
+        
+    }
+
+    select{
+        /* padding-left: 0.5em; */
+        width: 9.5em;
+        /* height: 2.6em; */
+
+    }
+
+    /* .colors-box {
+        width: 4.8em;
+     } */
+
+     P {
+        
+        font-size: 0.7rem;
+    }
+
+    #hex-value{
+        display: flex;
+        flex-direction: row;
+        padding-left: 6em;
+        margin-left: 2em;
+        width: 7em;
+        gap: 1.5em;
+    }   
+    
+}
